@@ -733,6 +733,7 @@ ol {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.48px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-inputs {
@@ -753,6 +754,7 @@ ol {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.48px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-privacy {
@@ -806,14 +808,22 @@ ol {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-wrapper:focus-within .input-icons {
   fill: var(--IRIS);
 }
 
-.input-modal:focus-within {
+.input-modal:focus-within,
+.textarea-modal:focus-within {
   border-color: var(--IRIS);
+}
+
+.email-input:focus,
+.input-modal:focus,
+.textarea-modal:focus {
+  outline: none;
 }
 
 

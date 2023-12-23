@@ -839,6 +839,12 @@ ol {
   fill: transparent;
 }
 
+.input-checkbox:checked .checkbox {
+  background-color: var(--IRIS);
+  border: none;
+  fill: #f4f4fd;
+}
+
 
 
 

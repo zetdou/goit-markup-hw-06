@@ -839,7 +839,7 @@ ol {
   fill: transparent;
 }
 
-.input-checkbox:checked .checkbox {
+.input-checkbox:checked+.label-modal .checkbox {
   background-color: var(--IRIS);
   border: none;
   fill: #f4f4fd;

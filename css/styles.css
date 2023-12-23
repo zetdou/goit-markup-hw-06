@@ -840,7 +840,7 @@ ol {
 }
 
 .input-checkbox:checked+.label-modal .checkbox {
-  background-color: var(--IRIS);
+  background-color: var(--OCEAN);
   border: none;
   fill: #f4f4fd;
 }

@@ -767,7 +767,7 @@ ol {
 
 .modal-privacy {
   color: var(--IRIS, #4D5AE5);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.48px;
